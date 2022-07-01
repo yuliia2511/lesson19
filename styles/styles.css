@@ -1,0 +1,138 @@
+* {
+    max-width: 1440px;
+    margin: auto;
+}
+
+html {
+    background: #E5E5E5;;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1440px;
+    
+}
+
+#header {
+    width: 1440px;
+    height: 100px;
+    background: white;
+}
+
+h4 {
+    margin: 0;
+    display: flex;
+    width: 10.8125em;
+    height: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5em;
+    color: #000000;
+    padding-top: 2.375em;
+    padding-bottom: 2.375em;
+    padding-left: 8.625em;  
+}
+
+#wrapper {
+    background: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.first__screen {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+    width: 9.79em;
+    height: 1.3em;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 133%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-bottom: 1.5em;
+}
+
+.photo {
+    width: 73.125em;
+    height: 31.25em;
+    padding-bottom: 5.625em;
+}
+
+.description__section {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.overview {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 7.4em;
+    width: 35.625em;
+    height: 21.5625em;
+    margin: 0;
+}
+
+h3 {
+    width: 16.8em;
+    height: 1.4em;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 1.8em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 168%;
+    letter-spacing: 0.005em;
+    color: #565656;
+    width: 25.4em;
+    height: 9em;
+}
+
+.first__section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    
+}
+
+.section__title {
+    padding-left: 4.4em;
+    padding-top: 5.625em;
+}
+
+
+
+
+
+
+
+#footer {
+    background: #F4F4F4;
+}
