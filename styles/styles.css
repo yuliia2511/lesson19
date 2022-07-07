@@ -229,6 +229,24 @@ p {
     gap: 10px;
 }
 
+svg:hover {
+background: #565656;
+}
+
+.path:hover {
+    stroke: #F4F4F4;
+    fill: #F4F4F4;
+}
+
+#twitter:hover {
+    background: #F4F4F4; /* НЕ РАБОТАЕТ*/
+}
+
+svg .twitter-path:hover {
+    stroke: #565656;
+    fill: #565656;
+}
+
 .right {
     font-family: 'Lato';
     font-style: normal;
@@ -258,4 +276,43 @@ p {
         flex-direction: column;
         padding-top: 1.5em;
     }
+}
+
+@media only screen and (max-width: 640px) {  
+    
+    .photo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .CTA {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1.5em;
+    }
+
+    .CTA__name {
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 26px;
+    }
+
 }
