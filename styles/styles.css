@@ -1,28 +1,27 @@
 * {
-    max-width: 1440px;
+    max-width: 100%;
+    max-height: 100%;
     margin: auto;
 }
 
 html {
-    background: #E5E5E5;;
+    background: #E5E5E5;
 }
 
 body {
     box-sizing: border-box;
-    max-width: 1440px;
-    
+    max-width: 100%;
+
 }
 
 #header {
-    width: 1440px;
-    height: 100px;
+    width: 100%;
+    height: 10%;
     background: white;
 }
 
 h4 {
-    margin: 0;
-    display: flex;
-    width: 10.8125em;
+    display: block;
     height: 1.5em;
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -33,7 +32,7 @@ h4 {
     color: #000000;
     padding-top: 2.375em;
     padding-bottom: 2.375em;
-    padding-left: 8.625em;  
+    padding-left: 17%;
 }
 
 #wrapper {
@@ -68,22 +67,18 @@ h2 {
 }
 
 .description__section {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: flex-start;
-    padding: 0;
-    margin: 0;
-}
-
-.overview {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 7.5em;
-    width: 38.5625em;
-    height: 21.5625em;
-    margin: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 21.5625em; 
 }
 
 h3 {
@@ -130,7 +125,7 @@ p {
     margin: 0;
     margin-top: 3.4em;
     padding-bottom: 1.8em;
-    
+
 }
 
 .second__section {
@@ -187,21 +182,20 @@ p {
     flex-direction: column;
     width: 23.7em;
     padding-top: 1.5em;
-    padding-right: 50%;
+    padding-right: 47%;
     align-items: flex-start;
     margin: 0;
-    
 }
 
 .CTA__name {
     font-family: 'Red Hat Display', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 133%;
-letter-spacing: 0.05em;
-color: #000000;
-margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 133%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 0;
 
 }
 
@@ -210,16 +204,17 @@ margin: 0;
     flex-direction: column;
     margin: 0;
     font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 166%;
-letter-spacing: 0.1em;
-color: #000000;
-text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
 }
 
-.number, .mail {
+.number,
+.mail {
     text-decoration: none;
     color: #000000;
 }
@@ -231,15 +226,36 @@ text-decoration: none;
 .socials {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .right {
     font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 166%;
-letter-spacing: 0.1em;
-color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
 }
 
+@media only screen and (max-width: 768px) {   
+    .photo {
+        width: 699px;
+        height: 380px;
+    }
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .CTA {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1.5em;
+    }
+}
